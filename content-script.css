@@ -1,0 +1,33 @@
+button {
+	color: white;
+	border: 1px solid #d4464b;
+	background: #e56e72;
+	max-height: 38px;
+	padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+	padding: 6px;
+	border-radius: 2px;
+	margin-bottom: 2px;
+
+	transition: transform 0.3s ease; 
+}
+
+button:hover {
+	background: #df4d52;
+}
+@keyframes shrinkAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+button:active {
+  animation: shrinkAnimation 0.3s ease;
+}

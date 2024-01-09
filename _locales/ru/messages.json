@@ -1,0 +1,10 @@
+{
+	"name": {
+		"message": "CRM TMK 4.0.0",
+		"description": "extension name"
+	},
+	"description": {
+		"message": "CRM TMK 4.0.0",
+		"description": "extension description"
+	}
+}
